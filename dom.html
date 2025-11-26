@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ Qué es el DOM? 
+ Document Object Model
+ Es una representación en forma de árbol que los navegadores crean a partir del código de HTML en una página web.
+
+ Cada etiqueta de HTML 
+ <div id="EstoEsUnID"></div>
+ <h1 id="miTitulo">Esto es un titulo</h1>
+ <p class="parrafo"></p>
+ <p class="parrafo"></p>
+ <p class="parrafo"></p>
+ <img src="" alt="">
+ <!-- Todas estas se convierten en un nodo o rama de este arbol.
+
+Que es un nodo:
+Document
+Element
+Text 
+Attributes
+
+Como acceder al DOM con JS
+
+Métodos principales:
+
+getElementByID("EstoEsUnID")
+
+getElementByClassName("parrafo")
+getElementByTagName()
+querySelector()
+querySelectorAll()
+<script>
+    const titulo = document.getElementById('miTitulo');
+    const nombre = "Jorge"
+</script>
+
+Manipulación del DOM
+
+Modificar Contenido:
+textContent()
+`Esto es mi {nombre}`
+innerHTML()
+
+Cambiar atributos
+setAttributes()
+getAttribute()
+
+Cambiar estilos:
+element.style.color = "red";
+
+Crear y eliminar elementos
+document.createElement()
+appendchild()
+prependchild()
+remove()
+replaceChild()
+
+Manejo de eventos
+
+addEventListener()
+
+button.addEventListener('click',()=>{
+    alert("Hiciste Click");
+}); -->
+
+</body>
+</html>
