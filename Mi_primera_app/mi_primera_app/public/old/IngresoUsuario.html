@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="titulo" onmouseover="ponerTituloRojo()">Bienvenido a Coderfy React 101</h1>
+    <li><a href="./index.html">Regresa al Indice</a></li>
+    <br>
+    <main>
+        <input type="text" id="nombreUsuario">
+        <button onclick="saludarUsuario()">Saluda al Usuario</button>
+    </main>
+
+    <script>
+        function saludarUsuario(){
+            let miNombre = document.getElementById("nombreUsuario").value;
+
+            alert("Hola " + miNombre)
+        }
+    </script>
+</body>
+
+</html>
